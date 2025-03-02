@@ -16,14 +16,12 @@ class TestCaesarCipher(unittest.TestCase):
         self.assertEqual(caesarCipher("xyz", 26), "xyz") # Wrap around
         self.assertEqual(caesarCipher("xyz", 27), "yza") #Wrap around
 
-
     def test_uppercase_shift(self):
         self.assertEqual(caesarCipher("ABCXYZ", 1), "BCDYZ")
         self.assertEqual(caesarCipher("ABCXYZ", 2), "CDEZA")
         self.assertEqual(caesarCipher("XYZ", 1), "YZA")
         self.assertEqual(caesarCipher("XYZ", 26), "XYZ") # Wrap around
         self.assertEqual(caesarCipher("XYZ", 27), "YZA") # Wrap around
-
 
     def test_mixed_case_shift(self):
         self.assertEqual(caesarCipher("AbCdEfGhIjKlMnOpQrStUvWxYz", 1), "BcDeFgHiJkLmNoPqRsTuVwXyZa")

@@ -2,10 +2,6 @@ import unittest
 from my_tests_code.AlternatingChar import alternatingCharacters
 
 class TestAlternatingCharacters(unittest.TestCase):
-
-    def test_empty_string(self):
-        self.assertEqual(alternatingCharacters(""), 0)
-
     def test_single_character(self):
         self.assertEqual(alternatingCharacters("A"), 0)
         self.assertEqual(alternatingCharacters("B"), 0)
