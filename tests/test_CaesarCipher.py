@@ -34,7 +34,3 @@ class TestCaesarCipher(unittest.TestCase):
 
     def test_large_shift(self):
         self.assertEqual(caesarCipher("abcxyz", 53), "fghijk") # Multiple of 26 +1
-
-
-if __name__ == '__main__':
-    unittest.main()

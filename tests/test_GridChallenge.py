@@ -36,7 +36,3 @@ class TestGridChallenge(unittest.TestCase):
 
         grid = ["mpxz", "abcd", "wlmf"]
         self.assertEqual(gridChallenge(grid), "NO")
-
-
-if __name__ == '__main__':
-    unittest.main()

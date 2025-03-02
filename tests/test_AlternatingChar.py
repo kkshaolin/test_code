@@ -24,6 +24,3 @@ class TestAlternatingCharacters(unittest.TestCase):
         self.assertEqual(alternatingCharacters("BBABBA"), 2)
         self.assertEqual(alternatingCharacters("AAABBB"),2)
 
-
-if __name__ == '__main__':
-    unittest.main()

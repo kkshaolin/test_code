@@ -33,7 +33,3 @@ class TestAlternate(unittest.TestCase):
 
     def test_no_alternating_pairs(self):
         self.assertEqual(alternate("AAABBBCCC"), 0)
-
-
-if __name__ == '__main__':
-    unittest.main()
